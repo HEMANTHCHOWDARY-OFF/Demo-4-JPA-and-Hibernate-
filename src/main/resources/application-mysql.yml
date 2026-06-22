@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/demo4?createDatabaseIfNotExists=true
+    username: root
+    password: hemanth12112006
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    name: mysql
+    show-sql: true
+server:
+  port: 8080
